@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
+            margin: 20px;
+            padding: 10px;
+            background-color: #4141;
+        }
+        footer {
+            background-color :#333;
+            color:#fff;
+            padding:10px;
+        }
+    </style>
+    <title>
+        Filling Form
+    </title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <center>Get in touch with us by filling contact form below</center>
+        </h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <form>
+            <p><input type="text" name="fname" title="fullname" placeholder="Enter your full name" required />
+                <input type="email" name="email" required="require" placeholder="Enter your email address"
+                    pattern="[@ ^]@[@ ^].[@ ^]" />
+            </p>
+            <p><input type="text" title="subject" name="subject" required placeholder="Enter your subject" /></p>
+            <p><textarea title="message" name="message" placeholder="* Your message here" cols="50"
+                    rows="10"></textarea>
+            </p>
+            <p><input type="submit" value="Send Message"> * please fill all require form field,thanks!</p>
+        </form>
+    </section>
+    <footer>
+        <div>
+            <h2> Contact Infor </h2>
+            <ul>
+                <li> 321 Awesome Street</li>
+                <li>New York,NY 17002 </li>
+                <li>infor@companyname.com</li>
+                <li>
+                    <a href="#">+ 1 800 123 1234</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
